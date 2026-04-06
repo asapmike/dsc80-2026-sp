@@ -69,6 +69,7 @@ def last_chars(fh):
 def add_root(A):
     ...
 
+
 def where_square(A):
     ...
 
@@ -98,6 +99,7 @@ def filter_cutoff_np(matrix, cutoff):
 
 def growth_rates(A):
     ...
+
 
 def with_leftover(A):
     ...
