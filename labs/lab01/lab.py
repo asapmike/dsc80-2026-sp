@@ -104,6 +104,7 @@ def add_root(A):
     return A + np.sqrt(np.arange(len(A)))
 
 
+
 def where_square(A):
     return np.sqrt(A) == np.floor(np.sqrt(A))
 
@@ -155,6 +156,7 @@ def filter_cutoff_np(matrix, cutoff):
 
 def growth_rates(A):
     return np.round((A[1:] - A[:-1]) / A[:-1], 2)
+
 
 
 def with_leftover(A):
